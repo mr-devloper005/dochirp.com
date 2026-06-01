@@ -8,7 +8,7 @@ export const globalContent = {
     baseUrl: slot4BrandConfig.baseUrl,
   },
   nav: {
-    tagline: 'Independent article journal',
+    tagline: 'Independent reading platform',
     primaryLinks: [
       { label: 'Articles', href: '/articles' },
       { label: 'Visuals', href: '/image-sharing' },
@@ -21,8 +21,8 @@ export const globalContent = {
     },
   },
   footer: {
-    tagline: 'Articles, interviews, essays, and reading lists',
-    description: 'An editorial article platform built for thoughtful reading, strong imagery, sharp sections, and easy discovery across every published post.',
+    tagline: 'Stories, resources, and discoverable posts',
+    description: 'A connected publishing surface for articles, visuals, listings, profiles, bookmarks, and downloadable resources.',
     columns: [
       {
         title: 'Explore',
@@ -41,7 +41,7 @@ export const globalContent = {
         ],
       },
     ],
-    bottomNote: 'Built for article discovery and quiet, focused reading.',
+    bottomNote: 'Built for clean discovery and connected publishing.',
   },
   commonLabels: {
     readMore: 'Read more',
