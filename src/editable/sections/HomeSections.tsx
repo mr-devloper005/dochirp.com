@@ -214,23 +214,8 @@ export function EditableMagazineSplit({ primaryTask, primaryRoute, posts }: Home
             <FeatureTile key={post.id} post={post} href={postHref(primaryTask, post, primaryRoute)} index={index} />
           ))}
         </div>
-        <aside className="space-y-7">
-          <div className="bg-[#f3eeea] p-7 text-center">
-            <div className="mx-auto h-48 w-48 overflow-hidden bg-[#e5ddd5]">
-              {latestPosts[0] ? <img src={getEditablePostImage(latestPosts[0])} alt="" className="h-full w-full object-cover" /> : null}
-            </div>
-            <h3 className="mt-5 text-xl font-black">Editorial Notes</h3>
-            <p className="mt-3 text-sm leading-7 text-black/58">Daily reading cues, category highlights, and carefully selected article paths for curious readers.</p>
-          </div>
-          <div className="bg-[#f3eeea] p-6">
-            <h3 className="text-xs font-black uppercase tracking-[0.20em] text-[#a9846f]">Latest Posts</h3>
-            <div className="mt-4 border-t border-black/15">
-              {latestPosts.map((post, index) => <ListPick key={post.id || post.slug} post={post} href={postHref(primaryTask, post, primaryRoute)} index={index} />)}
-            </div>
-          </div>
-        </aside>
       </div>
-    </SectionFrame>
+    </section>
   )
 }
 
