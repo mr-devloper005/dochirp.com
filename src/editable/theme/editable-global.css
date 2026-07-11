@@ -42,3 +42,11 @@ body {
 .article-content a {
   color: var(--slot4-accent-fill);
 }
+
+.article-content p {
+  margin-block: 1.1rem;
+}
+
+.article-content img {
+  border-radius: 0.75rem;
+}
